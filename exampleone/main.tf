@@ -5,7 +5,7 @@ terraform {
 # Configure the Azure Provider
 provider "azurerm" {
   # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
-  version = "=3.0.0"
+  #version = "=3.0.0"
   features {}
 }
 
